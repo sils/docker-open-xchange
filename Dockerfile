@@ -6,6 +6,7 @@ RUN yum update -y
 RUN yum install mysql-server open-xchange open-xchange-authentication-database open-xchange-grizzly \
   open-xchange-admin open-xchange-appsuite \
   open-xchange-appsuite-backend open-xchange-appsuite-manifest -y
+RUN yum install mariadb-server -y
 
 # TODO
 

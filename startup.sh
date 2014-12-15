@@ -1,3 +1,7 @@
 #! /bin/bash
 
-echo "Hello World."
+ROOT_PASSWORD="change_this"
+HOSTNAME="localhost"
+
+/usr/bin/mysqladmin -u root --password=\'$ROOT_PASSWORD\'
+
